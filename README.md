@@ -41,7 +41,7 @@ nano /etc/zabbix/zabbix_server.conf - прописываем пароль от �
 sudo apt remove apache2
 nano /etc/zabbix/nginx.conf 
  listen 80;
-server_name 192.168.151.70; 
+server_name 158.160.135.179; 
 
 systemctl restart zabbix-server zabbix-agent nginx php7.4-fpm
 systemctl enable zabbix-server zabbix-agent nginx php7.4-fpm
